@@ -484,3 +484,85 @@
 	    text-align: center;
 	    font-size: 3em;
 	}
+
+	/*********************************************************************************/
+	/* Works Box 1                                                                      */
+	/*********************************************************************************/
+
+	#wb1 {
+	    overflow: hidden;
+	    padding: 7em 0em 5em 0em;
+	    background: #202020;
+	    background-size: cover;
+	    text-align: center;
+	    color: rgba(255, 255, 255, .8);
+	}
+	
+	#wb1 .title {
+	    margin-bottom: 1em;
+	    text-transform: uppercase !important;
+	}
+	
+	#wb1 .title h2 {
+	    color: #FFF;
+	}
+	
+	#wb1 .title .byline {
+	    color: rgba(255, 255, 255, .6);
+	}
+
+	/*********************************************************************************/
+	/* Works Box 2                                                                      */
+	/*********************************************************************************/
+
+	#wb2 {
+	    overflow: hidden;
+	    padding: 7em 0em 5em 0em;
+	    background: #FFF;
+	    background-size: cover;
+	    text-align: center;
+	    color: rgba(255, 255, 255, .8);
+	}
+	
+	#wb2 .title {
+	    margin-bottom: 1em;
+	    text-transform: uppercase !important;
+	}
+	
+	#wb2 .title h2 {
+	    color: #202020;
+	}
+	
+	#wb2 .title .byline {
+	    color:  #6F6F6F;
+	}
+
+	#wb2 p {
+		color:  #6F6F6F
+	}
+
+	/*********************************************************************************/
+	/* Works Box 3                                                                      */
+	/*********************************************************************************/
+
+	#wb3 {
+	    overflow: hidden;
+	    padding: 7em 0em 5em 0em;
+	    background: #202020;
+	    background-size: cover;
+	    text-align: center;
+	    color: rgba(255, 255, 255, .8);
+	}
+	
+	#wb3 .title {
+	    margin-bottom: 1em;
+	    text-transform: uppercase !important;
+	}
+	
+	#wb3 .title h2 {
+	    color: #FFF;
+	}
+	
+	#wb3 .title .byline {
+	    color: rgba(255, 255, 255, .6);
+	}
