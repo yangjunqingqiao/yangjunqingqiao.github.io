@@ -222,7 +222,7 @@
 	
 	.box1,
 	.box2,
-	.box3{
+	.box3 {
 	    float: left;
 	    margin-right: 20px;
 	}
@@ -483,14 +483,11 @@
 	    text-align: center;
 	    font-size: 3em;
 	}
-
-
-
 	/* TODO MAKE THIS ALTERNATING TABLE
 	/*********************************************************************************/
 	/* Works Box 1                                                                      */
 	/*********************************************************************************/
-
+	
 	#wb1 {
 	    overflow: hidden;
 	    padding: 7em 0em 5em 0em;
@@ -512,21 +509,21 @@
 	#wb1 .title .byline {
 	    color: #6F6F6F;
 	}
-
+	
 	#wb1 p {
-		color:  #6F6F6F
+	    color: #6F6F6F
 	}
 	/*********************************************************************************/
 	/* Works Box 2                                                                   */
 	/*********************************************************************************/
-
+	
 	#wb2 {
 	    overflow: hidden;
 	    padding: 7em 0em 5em 0em;
-		background: #202020;
-		background-size: cover;
-		color: rgba(255, 255, 255, .8);
-		text-align: center;
+	    background: #202020;
+	    background-size: cover;
+	    color: rgba(255, 255, 255, .8);
+	    text-align: center;
 	}
 	
 	#wb2 .title {
@@ -541,12 +538,10 @@
 	#wb2 .title .byline {
 	    color: rgba(255, 255, 255, .6);
 	}
-
-
 	/*********************************************************************************/
 	/* Works Box 3                                                                      */
 	/*********************************************************************************/
-
+	
 	#wb3 {
 	    overflow: hidden;
 	    padding: 7em 0em 5em 0em;
@@ -568,7 +563,34 @@
 	#wb3 .title .byline {
 	    color: #6F6F6F;
 	}
-
+	
 	#wb3 p {
-		color:  #6F6F6F
+	    color: #6F6F6F
+	}
+	/* UTILITIES */
+	
+	.tooltip {
+	    position: relative;
+	    display: inline-block;
+	    border-bottom: 1px dotted black;
+	    /* If you want dots under the hoverable text */
+	}
+	/* Tooltip text */
+	
+	.tooltip .tooltiptext {
+	    visibility: hidden;
+	    width: 120px;
+	    background-color: black;
+	    color: #fff;
+	    text-align: center;
+	    padding: 5px 0;
+	    border-radius: 6px;
+	    /* Position the tooltip text - see examples below! */
+	    position: absolute;
+	    z-index: 1;
+	}
+	/* Show the tooltip text when you mouse over the tooltip container */
+	
+	.tooltip:hover .tooltiptext {
+	    visibility: visible;
 	}
