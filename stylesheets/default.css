@@ -573,6 +573,7 @@
 	    position: relative;
 	    display: inline-block;
 	    border-bottom: 1px dotted black;
+	    overflow: visible;
 	    /* If you want dots under the hoverable text */
 	}
 	/* Tooltip text */
