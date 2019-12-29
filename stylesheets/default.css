@@ -593,4 +593,5 @@
 	
 	.tooltip:hover .tooltiptext {
 	    visibility: visible;
+	    overflow: visible;
 	}
