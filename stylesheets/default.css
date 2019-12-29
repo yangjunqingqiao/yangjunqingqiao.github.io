@@ -573,7 +573,6 @@
 	    position: relative;
 	    display: inline-block;
 	    border-bottom: 1px dotted black;
-	    overflow: auto;
 	    /* If you want dots under the hoverable text */
 	}
 	/* Tooltip text */
@@ -588,14 +587,11 @@
 	    border-radius: 6px;
 	    /* Position the tooltip text - see examples below! */
 	    position: absolute;
-	    z-index: 1;
-	    overflow: auto;
+	    z-index: 999;
 	}
 	/* Show the tooltip text when you mouse over the tooltip container */
 	
 	.tooltip:hover .tooltiptext {
-	    bottom: 2em;
-	    left: 0;
 	    visibility: visible;
 	    overflow: auto;
 	}
