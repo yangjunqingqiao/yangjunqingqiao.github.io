@@ -1,0 +1,5 @@
+- left justify and uncap the project descriptions
+- fix about me
+- thenounproject for sleek icons
+- add deep learning to about me and homepage
+- make resume 1 page, add interests to bottom left corner
